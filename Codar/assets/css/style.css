@@ -1,0 +1,288 @@
+:root {
+    --vermelho-principal: #D6000D;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.header__logo a{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--vermelho-principal);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.header__logo span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.header__nav-bar a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 2rem;
+}
+
+.header__nav-bar a:last-child {
+    margin-right: 0;
+    color: #fff;
+    padding: 0.4em 4rem;
+    background-color: var(--vermelho-principal);
+    border-radius: 15px;
+}
+
+.orcamentos {
+    display: flex;
+    width: 80%;
+    margin: 9rem auto;
+}
+
+.container__img{
+    width: 50%;
+    text-align: center;
+}
+
+.container__img img {
+    width: 93%;
+}
+
+.container__solicita-orcamento {
+    margin: 3rem 0 0 3rem;
+}
+
+.container__solicita-orcamento p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    margin: 0.8em 0;
+}
+
+.container__solicita-orcamento h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3.6rem;
+    color: var(--vermelho-principal);
+    margin-bottom: 4.5rem;
+}
+
+.container__solicita-orcamento a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0.4em 3rem;
+    background-color: var(--vermelho-principal);
+    border-radius: 15px;
+}
+
+.beneficios__wrapper {
+    display: flex;
+    width: 80%;
+    margin: 9rem 9rem 0 9rem;
+}
+
+.beneficios__lista {
+    margin: 6rem 12rem 0 0;
+}
+
+.beneficios__lista i {
+    color: var(--vermelho-principal);
+    font-size: 1.7rem;
+    margin-right: 1em;
+}
+
+.beneficios__lista li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    margin: 0.8em 0;
+}
+
+.beneficios__img {
+    width: 50%;
+    text-align: center;
+}
+
+.beneficios__img img {
+    width: 93%;
+}
+
+.beneficios__contato {
+    margin: 0 9rem 9rem 9rem;
+}
+
+.beneficios__contato h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    margin: 0.5em 0;
+}
+
+.beneficios__contato input {
+    width: 19%;
+    padding: 0.5em 2rem;   
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    background-color: rgb(202, 196, 196);
+    margin-right: 0.5em;
+}
+
+.beneficios__contato a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0.5em 2rem;   
+    background-color: var(--vermelho-principal);
+    border-radius: 15px;
+}
+
+.comentarios {
+    display: flex;
+    width: 80%;
+    margin: 9rem 9rem 0 9rem;
+}
+
+.card {
+    display: flex;
+    width: 42%;
+    background-color: rgb(202, 196, 196);
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.img-card {
+    width: 140px;
+    height: 50px;
+    margin: 1rem;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.texto {
+    margin: 2em 2em 2em 0;
+}
+
+.texto p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+.texto h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.texto h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    margin: 4rem 3rem;
+}
+
+.footer__logo h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1em;
+}
+
+.footer__logo p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.footer__sobre {
+    margin: 4rem 3rem;
+}
+
+.footer__sobre h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1em;
+}
+
+.footer__sobre p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.footer__contato {
+    margin: 4rem 3rem;
+}
+
+.footer__contato h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1em;
+}
+
+.footer__contato p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.footer__contato a {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.footer__Redes {
+    margin: 4rem 3rem;
+}
+
+.footer__Redes h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1em;
+}
+
+.footer__Redes i{
+    color: var(--vermelho-principal);
+    font-size: 2rem;
+    margin: 0.3em;
+}
